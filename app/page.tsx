@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="max-w-[1230px] mx-auto mt-10 md:bg-[#181B49]/50 md:py-10 md:px-0">
+    <div className="max-w-[1230px] mx-auto mt-10 md:bg-[#181B49]/50 md:py-10 md:px-5">
       <div>
         <h1 className="text-white text-2xl font-bold uppercase text-center md:text-4xl">
           New Panalobet luck draw group
@@ -11,13 +11,14 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 gap-y-5 mt-10 md:grid-cols-5">
-        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-start md:flex-col-reverse md:mb-auto">
-          <div className="flex items-start md:mt-4 md:items-center md:text-center">
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
+          <div className="flex items-start md:mt-4 md:items-center">
             <p className="text-white font-bold text-center text-lg">
               <span className="block uppercase">Step 1:</span>
               <span>
                 Download the &quot;
-                <span className="text-yellow-300">Telegram app</span>&quot;
+                <span className="text-yellow-300 block">Telegram app</span>
+                &quot;
               </span>
             </p>
           </div>
@@ -30,13 +31,15 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-start md:flex-col-reverse md:mb-auto">
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
           <div className="flex items-start md:mt-4 md:items-center md:text-center">
             <p className="text-white font-bold text-center text-lg">
               <span className="block uppercase">Step 2:</span>
               <span>
-                After registering search for &quot;
-                <span className="text-yellow-300">pbagentpromo</span>&quot;
+                After registering
+                <span className="block">search for</span>
+                &quot;<span className="text-yellow-300">pbagentpromo</span>
+                &quot;
               </span>
             </p>
           </div>
@@ -49,13 +52,16 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-start md:flex-col-reverse md:mb-auto">
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
           <div className="flex items-start md:items-center md:text-center">
             <p className="text-white font-bold text-center text-lg">
               <span className="block uppercase">Step: 3</span>
               <span>
-                Enter the group and go to the &quot;
-                <span className="text-yellow-300">Lucky Draw</span>&quot; tab
+                Enter the group and go{" "}
+                <span>
+                  to the &quot;{" "}
+                  <span className="text-yellow-300">Lucky Draw</span> &quot; tab
+                </span>
               </span>
             </p>
           </div>
@@ -68,13 +74,14 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-start md:flex-col-reverse md:mb-auto">
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
           <div className="flex items-start md:items-center md:text-center">
             <p className="text-white font-bold text-center text-xl md:text-lg">
               <span className="block uppercase">Step 4:</span>
               <span className="text-pretty">
                 Click the &quot;<span className="text-yellow-300">Join</span>
-                &quot; button
+                &quot;
+                <span className="block">button</span>
               </span>
             </p>
           </div>
@@ -87,7 +94,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-start md:flex-col-reverse">
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse">
           <div className="flex items-start md:items-center md:text-center">
             <p className="text-white font-bold text-center text-xl md:text-lg">
               <span className="block uppercase">Step 5:</span>
