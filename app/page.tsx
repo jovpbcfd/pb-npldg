@@ -5,7 +5,7 @@ export default function Home() {
     <div className="max-w-[1230px] mx-auto mt-10 md:bg-[#181B49]/50 md:py-10 md:px-5">
       <div>
         <h1 className="text-white text-2xl font-bold uppercase text-center md:text-4xl">
-          New Panalobet luck draw group
+          New Panalobet lucky draw group
         </h1>
         <div className="h-[1px] w-[90%] mx-auto bg-gray-300 my-5"></div>
       </div>
