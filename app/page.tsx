@@ -16,9 +16,12 @@ export default function Home() {
             <p className="text-white font-bold text-center text-lg">
               <span className="block uppercase">Step 1:</span>
               <span>
-                Download the &quot;
-                <span className="text-yellow-300 block">Telegram app</span>
-                &quot;
+                Download the
+                <span className="block">
+                  &quot;
+                  <span className="text-yellow-300">Telegram app</span>
+                  &quot;
+                </span>
               </span>
             </p>
           </div>
@@ -59,8 +62,8 @@ export default function Home() {
               <span>
                 Enter the group and go{" "}
                 <span>
-                  to the &quot;{" "}
-                  <span className="text-yellow-300">Lucky Draw</span> &quot; tab
+                  to the &quot;
+                  <span className="text-yellow-300">Lucky Draw</span>&quot; tab
                 </span>
               </span>
             </p>
