@@ -101,9 +101,11 @@ export default function Home() {
           <div className="flex items-start md:items-center md:text-center">
             <p className="text-white font-bold text-center text-xl md:text-lg">
               <span className="block uppercase">Step 5:</span>
-              <span className="text-pretty">
-                Send the required details via private message to the contact
-                mentioned in the post
+              <span className="text-balance">
+                Send the required
+                <span className="block">details via private</span>
+                message to the contact
+                <span className="block">mentioned in the post</span>
               </span>
             </p>
           </div>
