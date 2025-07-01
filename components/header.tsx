@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className={`bg-[#1F2460] transition-all duration-300 ease-in-out`}>
-      <div className={`bg-[#1F2460] transition-shadow duration-300 shadow-lg`}>
+    <header className={`bg-[#22286b] transition-all duration-300 ease-in-out`}>
+      <div className={`bg-[#22286b] transition-shadow duration-300 shadow-lg`}>
         <div className="w-full max-w-[1230px] mx-auto text-white">
           <div className="flex flex-col justify-between items-center px-2 py-4 md:flex-row md:py-4 md:px-[22px]">
             <div>
