@@ -3,6 +3,12 @@ import Image from "next/image";
 export default function SpinStep() {
   return (
     <div className="max-w-[1230px] mx-auto mt-10 md:bg-[#22286b] md:py-10 md:px-5 md:mb-10">
+      <div>
+        <h1 className="text-white text-2xl font-bold uppercase text-center md:text-4xl">
+          How to Use Coins in Daily Spin
+        </h1>
+        <div className="h-[1px] w-[90%] mx-auto bg-gray-300 my-5"></div>
+      </div>
       <div className="grid grid-cols-1 gap-y-5 mt-10 md:grid-cols-5">
         <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
           <div className="flex items-start md:items-center">
