@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SpinStep from "@/components/spin-step";
 
 export default function Home() {
   return (
@@ -149,6 +150,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <SpinStep />
     </>
   );
 }

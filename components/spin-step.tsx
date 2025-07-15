@@ -1,0 +1,100 @@
+import Image from "next/image";
+
+export default function SpinStep() {
+  return (
+    <div className="max-w-[1230px] mx-auto mt-10 md:bg-[#22286b] md:py-10 md:px-5 md:mb-10">
+      <div className="grid grid-cols-1 gap-y-5 mt-10 md:grid-cols-5">
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
+          <div className="flex items-start md:items-center">
+            <p className="text-white font-bold text-center text-lg">
+              <span className="block uppercase">Step 1:</span>
+              <span className="text-yellow-300">Log In</span>
+            </p>
+          </div>
+          <div className="flex items-center justify-center w-full h-full md:h-auto md:w-[250px]">
+            <Image
+              src="/img/IMAGE_STEPS/STEP_ONE.webp"
+              height={400}
+              width={200}
+              alt="Step one of free registration"
+            />
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
+          <div className="flex items-start md:items-center md:text-center">
+            <p className="text-white font-bold text-center text-lg">
+              <span className="block uppercase">Step 2:</span>
+              <span>
+                Click "
+                <span className="text-yellow-300">Daily Spin 100% Win</span>"
+              </span>
+            </p>
+          </div>
+          <div className="flex items-center justify-center w-full h-full md:h-auto md:w-[250px]">
+            <Image
+              src="/img/IMAGE_STEPS/STEP_TWO.webp"
+              height={400}
+              width={200}
+              alt="Step two of free registration"
+            />
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
+          <div className="flex items-start md:items-center md:text-center">
+            <p className="text-white font-bold text-center text-lg">
+              <span className="block uppercase">Step: 3</span>
+              <span>
+                Click "<span className="text-yellow-300">Lobby</span>"
+              </span>
+            </p>
+          </div>
+          <div className="flex items-center justify-center w-full h-full md:h-auto md:w-[250px]">
+            <Image
+              src="/img/IMAGE_STEPS/STEP_THREE.webp"
+              height={400}
+              width={200}
+              alt="Step three of free registration"
+            />
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
+          <div className="flex items-start md:items-center md:text-center">
+            <p className="text-white font-bold text-center text-xl md:text-lg">
+              <span className="block uppercase">Step 4 & 5:</span>
+              <span className="text-pretty">
+                Click right side spin and click "
+                <span className="text-yellow-300">50 coin/per spin</span>"
+              </span>
+            </p>
+          </div>
+          <div className="flex items-center justify-center w-full h-full md:h-auto md:w-[250px]">
+            <Image
+              src="/img/IMAGE_STEPS/STEP_FOUR&FIVE.webp"
+              height={400}
+              width={200}
+              alt="Step four of free registration"
+            />
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center gap-5 md:justify-start md:items-center md:flex-col-reverse md:mb-auto">
+          <div className="flex items-start md:items-center md:text-center">
+            <p className="text-white font-bold text-center text-xl md:text-lg">
+              <span className="block uppercase">Step 5:</span>
+              <span className="text-balance">
+                Click "<span className="text-yellow-300">Spin</span>"
+              </span>
+            </p>
+          </div>
+          <div className="flex items-center justify-center w-full h-full md:h-auto md:w-[250px]">
+            <Image
+              src="/img/IMAGE_STEPS/STEP_SIX.webp"
+              height={400}
+              width={200}
+              alt="Step four of free registration"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
