@@ -31,8 +31,9 @@ export default function SpinStep() {
             <p className="text-white font-bold text-center text-lg">
               <span className="block uppercase">Step 2:</span>
               <span>
-                Click "
-                <span className="text-yellow-300">Daily Spin 100% Win</span>"
+                Click &quot;
+                <span className="text-yellow-300">Daily Spin 100% Win</span>
+                &quot;
               </span>
             </p>
           </div>
@@ -50,7 +51,7 @@ export default function SpinStep() {
             <p className="text-white font-bold text-center text-lg">
               <span className="block uppercase">Step: 3</span>
               <span>
-                Click "<span className="text-yellow-300">Lobby</span>"
+                Click &quot;<span className="text-yellow-300">Lobby</span>&quot;
               </span>
             </p>
           </div>
@@ -68,8 +69,8 @@ export default function SpinStep() {
             <p className="text-white font-bold text-center text-xl md:text-lg">
               <span className="block uppercase">Step 4 & 5:</span>
               <span className="text-pretty">
-                Click right side spin and click "
-                <span className="text-yellow-300">50 coin/per spin</span>"
+                Click right side spin and click &quot;
+                <span className="text-yellow-300">50 coin/per spin</span>&quot;
               </span>
             </p>
           </div>
@@ -87,7 +88,7 @@ export default function SpinStep() {
             <p className="text-white font-bold text-center text-xl md:text-lg">
               <span className="block uppercase">Step 5:</span>
               <span className="text-balance">
-                Click "<span className="text-yellow-300">Spin</span>"
+                Click &quot;<span className="text-yellow-300">Spin</span>&quot;
               </span>
             </p>
           </div>
