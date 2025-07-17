@@ -111,10 +111,10 @@ export default function SpinStep() {
       <div className="max-w-[1230px] mx-auto flex items-center justify-center my-10 md:my-20">
         <div className="flex flex-col items-center gap-5 md:flex-row md:gap-7">
           <div className="text-center">
-            <h2 className="text-yellow-300 font-bold text-2xl md:text-4xl md:font-bold">
+            <h2 className="text-yellow-300 mb-4 font-bold text-2xl md:mb-0 md:text-4xl md:font-bold">
               Contact Us
             </h2>
-            <div className="flex items-center gap-5 lg:mt-4">
+            <div className="flex flex-col items-center gap-5 md:flex-row lg:mt-4">
               <div className="flex items-center gap-2">
                 <Image
                   src="/img/IMAGE_STEPS/SOCIALS_ICONS/telegram_icon.webp"
