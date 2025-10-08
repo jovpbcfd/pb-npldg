@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className="max-w-[1230px] mx-auto mt-10 md:bg-[#22286b] md:py-10 md:px-5">
         {/* TEST LIVESTREAM */}
-        <div className="flex items-center justify-center mb-5 md:mb-10">
+        {/* <div className="flex items-center justify-center mb-5 md:mb-10">
           <iframe
           src="https://player.twitch.tv/?channel=aha_man_ko&parent=localhost&parent=pb-npldg.vercel.app"
           // frameBorder="0"
@@ -15,7 +15,7 @@ export default function Home() {
           height="378"
           width="620">
         </iframe>
-        </div>
+        </div> */}
 
         <div>
           <h1 className="text-white text-2xl font-bold uppercase text-center md:text-4xl">
