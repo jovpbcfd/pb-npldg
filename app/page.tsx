@@ -8,7 +8,7 @@ export default function Home() {
         {/* TEST LIVESTREAM */}
         <div className="flex items-center justify-center mb-5 md:mb-10">
           <iframe
-          src="https://player.twitch.tv/?channel=aha_man_ko&parent=localhost&parent=https://pb-npldg.vercel.app/"
+          src="https://player.twitch.tv/?channel=aha_man_ko&parent=localhost&parent=pb-npldg.vercel.app"
           // frameBorder="0"
           allowFullScreen={true}
           // scrolling="no"
